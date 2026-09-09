@@ -15,7 +15,7 @@ YouTube 검색 → NotebookLM AI 분석 → 팟캐스트/슬라이드/리포트 
 NotebookLM의 AI 팟캐스트, 슬라이드, 리포트 생성 기능을 사용하려면 MCP 서버 연결이 필요합니다:
 
 ```bash
-claude mcp add notebooklm-mcp -- nlm mcp
+claude mcp add notebooklm-mcp -- notebooklm-mcp
 ```
 
 또는 `.claude/settings.json`에 이미 설정되어 있으므로, 이 레포 디렉토리에서 `claude`를 실행하면 자동 연결됩니다.
