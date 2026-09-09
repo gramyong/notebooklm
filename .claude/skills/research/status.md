@@ -20,10 +20,9 @@
   아직 리서치 세션이 없습니다.
 
   ### 사전 준비 (최초 1회)
-  1. Deno 설치: `curl -fsSL https://deno.land/install.sh | sh`
-  2. nlm CLI 설치: `deno install -gArf jsr:@nicholasgriffintn/notebooklm-cli`
-  3. 인증: `nlm login` (브라우저에서 Google 계정 로그인)
-  4. yt-dlp 설치: `pip install yt-dlp` (YouTube 검색용)
+  1. nlm CLI 설치: `uv tool install notebooklm-mcp-cli` (또는 `pip install notebooklm-mcp-cli`)
+  2. 인증: `nlm login` (브라우저에서 Google 계정 로그인)
+  3. yt-dlp 설치: `uv tool install yt-dlp` (YouTube 검색용)
 
   ### Quick Start
   /research run AI 에이전트 트렌드 --auto      # 원스톱 자동 파이프라인
